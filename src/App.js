@@ -13,10 +13,10 @@ function App() {
         
 
         <Routes>
-          <Route path='./login' element={<Login />}></Route>
-          <Route path="/checkout" element={[<Header />,<Checkout />]}>
+          <Route path='/login' element={<Login />} />
+          <Route path="/checkout" element={[<Header />,<Checkout />]} />
             
-          </Route>
+          
           <Route path="/" element={[<Header />,<Home />]}>
               
           </Route>
